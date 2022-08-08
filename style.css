@@ -1,0 +1,124 @@
+/* ====== IMPORTING ====== */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:wght@700&display=swap");
+
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --background-color: #ffedd5;
+  --text-color: #2d2c2a;
+  --background-title-color: #fed7aa;
+  --emphasis-color: #995000;
+}
+
+/* ====== LAYOUT ====== */
+body {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-inline: auto;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Serif", serif;
+}
+
+p,
+small {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ====== HEADER ====== */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 32px;
+}
+
+header h1 {
+  font-size: 1.75rem;
+
+  padding-bottom: 4px;
+}
+
+header span {
+  color: var(--emphasis-color);
+}
+
+header p {
+  font-size: 0.875rem;
+}
+
+/* ====== MAIN ====== */
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.products-section h2 {
+  background-color: var(--background-title-color);
+
+  font-size: 1.125rem;
+  margin-bottom: 24px;
+  padding: 8px 0;
+}
+
+.products-section ul {
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.products-section ul li {
+  display: flex;
+}
+
+.products-section h3 {
+  font-size: 1rem;
+
+  padding-bottom: 8px;
+}
+
+.products-section p {
+  font-size: 0.875rem;
+
+  color: black;
+  opacity: 0.6;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  display: flex;
+
+  margin-bottom: 24px;
+}
+
+footer a {
+  color: var(--text-color);
+}
