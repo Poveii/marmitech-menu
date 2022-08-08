@@ -74,9 +74,9 @@ header p {
 main {
   display: flex;
   flex-direction: column;
-  flex: 1;
   gap: 24px;
-  margin-bottom: 32px;
+
+  margin-bottom: 48px;
 }
 
 .products-section h2 {
@@ -112,11 +112,19 @@ main {
   opacity: 0.6;
 }
 
+.products-section strong {
+  line-height: 19px;
+}
+
 /* ====== FOOTER ====== */
 footer {
   display: flex;
 
   margin-bottom: 24px;
+}
+
+footer small {
+  opacity: 0.8;
 }
 
 footer a {
