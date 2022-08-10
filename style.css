@@ -16,6 +16,7 @@ ul {
   list-style-type: none;
 }
 
+/* ====== COLORS ====== */
 :root {
   --background-color: #ffedd5;
   --text-color: #2d2c2a;
@@ -68,6 +69,7 @@ header span {
 
 header p {
   font-size: 0.875rem;
+  line-height: 16px;
 }
 
 /* ====== MAIN ====== */
