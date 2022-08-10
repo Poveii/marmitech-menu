@@ -24,6 +24,13 @@ ul {
   --emphasis-color: #995000;
 }
 
+body.rocket {
+  --background-color: #121214;
+  --text-color: #ffffff;
+  --background-title-color: #8257e5;
+  --emphasis-color: #6833e4;
+}
+
 /* ====== LAYOUT ====== */
 body {
   width: 300px;
@@ -39,7 +46,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+strong {
   font-family: "Roboto Serif", serif;
 }
 
@@ -69,7 +77,9 @@ header span {
 
 header p {
   font-size: 0.875rem;
-  line-height: 16px;
+
+  color: var(--text-color);
+  opacity: 0.8;
 }
 
 /* ====== MAIN ====== */
@@ -101,6 +111,10 @@ main {
   display: flex;
 }
 
+.products-section div {
+  flex: 1;
+}
+
 .products-section h3 {
   font-size: 1rem;
 
@@ -109,13 +123,16 @@ main {
 
 .products-section p {
   font-size: 0.875rem;
+  line-height: 1.3125rem;
+  width: 250px;
 
-  color: black;
+  color: var(--text-color);
   opacity: 0.6;
 }
 
 .products-section strong {
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.1875rem;
 }
 
 /* ====== FOOTER ====== */
