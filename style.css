@@ -31,13 +31,14 @@ body.maratona {
   --emphasis-color: #995000;
 }
 
+/* ====== SCROLLBAR ====== */
 ::-webkit-scrollbar {
   width: 6px;
   height: 0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #4d4d57;
+  background-color: #27272b;
 }
 
 /* ====== LAYOUT ====== */
@@ -46,6 +47,7 @@ body {
 
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   margin-inline: auto;
 
@@ -82,6 +84,12 @@ header h1 {
 
 header span {
   color: var(--emphasis-color);
+
+  transition: filter 800ms ease-out;
+}
+
+header span:hover {
+  filter: brightness(1.35) contrast(1.25);
 }
 
 header p {
@@ -93,6 +101,7 @@ header p {
 
 /* ====== MAIN ====== */
 main {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -124,16 +133,16 @@ main {
   flex: 1;
 }
 
-.products-section h3 {
+.products-section div h3 {
   font-size: 1rem;
 
   padding-bottom: 8px;
 }
 
-.products-section p {
+.products-section div p {
   font-size: 0.875rem;
   line-height: 1.3125rem;
-  width: 250px;
+  width: 225px;
 
   color: var(--text-color);
   opacity: 0.6;
@@ -142,10 +151,13 @@ main {
 .products-section strong {
   font-size: 1rem;
   line-height: 1.1875rem;
+
+  cursor: pointer;
 }
 
 /* ====== FOOTER ====== */
 footer {
+  width: 260px;
   display: flex;
 
   margin-bottom: 24px;
@@ -153,6 +165,10 @@ footer {
 
 footer small {
   opacity: 0.8;
+}
+
+footer #github {
+  text-decoration: underline;
 }
 
 footer a {
