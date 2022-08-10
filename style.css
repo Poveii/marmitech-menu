@@ -18,17 +18,17 @@ ul {
 
 /* ====== COLORS ====== */
 :root {
-  --background-color: #ffedd5;
-  --text-color: #2d2c2a;
-  --background-title-color: #fed7aa;
-  --emphasis-color: #995000;
-}
-
-body.rocket {
   --background-color: #121214;
   --text-color: #ffffff;
   --background-title-color: #8257e5;
   --emphasis-color: #6833e4;
+}
+
+body.maratona {
+  --background-color: #ffedd5;
+  --text-color: #2d2c2a;
+  --background-title-color: #fed7aa;
+  --emphasis-color: #995000;
 }
 
 /* ====== LAYOUT ====== */
