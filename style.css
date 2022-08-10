@@ -31,6 +31,15 @@ body.maratona {
   --emphasis-color: #995000;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d4d57;
+}
+
 /* ====== LAYOUT ====== */
 body {
   width: 300px;
