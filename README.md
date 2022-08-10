@@ -5,7 +5,10 @@
 # Coffee Menu
 ☕ 📝 Um simples menu de café feito durante a Maratona Explorer 3.0 da Rocketseat
 
-<strong>Você pode ver esse projeto <a href="https://poveii.github.io/coffee-menu/" >aqui</a> ←</strong>
+<strong>Você pode ver o projeto escaneando esse qrcode ↓</strong>
+
+<img src="https://user-images.githubusercontent.com/79858234/183901035-f37b8b28-f5cb-4829-b3f6-22986380fc20.svg" alt="Qrcode para o site Coffee Menu" />
+
 
 ## Tecnologias
 - <strong>
