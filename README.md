@@ -10,7 +10,7 @@
 
 <strong>Veja o projeto escaneando esse qrcode aqui ↓</strong>
 
-<img src="https://user-images.githubusercontent.com/79858234/183901035-f37b8b28-f5cb-4829-b3f6-22986380fc20.svg" alt="Qrcode para o site Coffee Menu" style="width: 220px; height: 220px;" />
+<img src="https://user-images.githubusercontent.com/79858234/184150925-f3f4a51d-a7e1-4932-ad09-0cdfffb547f2.svg" alt="Qrcode para o site Coffee Menu" style="width: 220px; height: 220px;" />
 
 ## O que é o Marmitech?
   <p>
