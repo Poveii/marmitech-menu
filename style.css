@@ -152,7 +152,15 @@ main {
   font-size: 1rem;
   line-height: 1.1875rem;
 
+  display: flex;
+  column-gap: 4px;
+
   cursor: pointer;
+}
+
+.products-section .points-icon {
+  width: 20px;
+  height: 20px;
 }
 
 /* ====== FOOTER ====== */
