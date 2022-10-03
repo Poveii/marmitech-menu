@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/79858234/183971672-669553dd-f553-4e34-aeaf-180a945657f7.png" alt="Uma foto mostrando o Coffee Menu" />
+  <img src="https://user-images.githubusercontent.com/79858234/193632369-f2a859ec-cb4b-46df-be90-06aebbf544bc.gif" alt="Um GIF mostrando o Marmitech Menu" />
 </div>
 
 # Marmitech Menu
@@ -28,4 +28,4 @@
       CSS
   </strong>
 
-### 💜 Obrigado a Rocketseat e Mayk Brito por mais uma Maratona Explorer e um projeto super top!
+### 💜 Obrigado a Rocketseat e Mayk Brito por mais uma Maratona Explorer e Jakeliny pelo Marmitech!!
